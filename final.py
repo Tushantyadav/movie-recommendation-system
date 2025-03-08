@@ -4,6 +4,8 @@ import streamlit as st #importing streamlit library
 import pandas as pd #importing pandas library
 import pickle #importing pickle library
 import requests 
+import gzip
+
 
 # Load Custom CSS
 with open("style.css") as f: #
