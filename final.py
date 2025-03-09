@@ -37,7 +37,7 @@ def recommend(movie):  #function to recommend movies
 
 # Load data and similarity model
 movies = pd.read_pickle(open('movie_list.pkl', 'rb'))   #loading the movie list
-similarity = pd.read_pickle(open("similarity.pkl.gz", 'rb'))   #loading the similarity scores  
+similarity = pd.read_pickle(open("similarity.pkl", 'rb'))   #loading the similarity scores  
 
 # Streamlit App
 st.title("🎬 Movie Recommendation System")                  #setting the title of the web app
